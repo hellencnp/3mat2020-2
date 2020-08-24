@@ -40,3 +40,21 @@ let removido4 = vetor1.shift()
 //o splice  sempre retornara um vetor como resultado
 let removido5 = vetor1.splice(1,1)
 console.log(vetor1, removido5)
+
+//Percursos de vetores
+// length é a quantidade de elementos do vetor
+//forma1= for
+
+for (let i=0; i<vetor1.length; i++){
+ console.log(vetor[i])
+}
+
+//forma2= for..of
+for (let fruta of vetor1){
+    console.log (fruta)
+}
+
+//forma3 =  forEach
+vetor1.forEach(function(valor){
+    console.log(valor)
+})
